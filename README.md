@@ -25,7 +25,7 @@ Processing large log files using Large Language Models (LLMs) can easily bottlen
 
 ```text
               ┌──────────────────────┐
-              │ Uploaded Log File    │
+              │  Uploaded Log File   │
               └──────────┬───────────┘
                          │
                          ▼ (Recursive Chunking)
