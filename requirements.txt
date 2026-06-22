@@ -1,0 +1,8 @@
+fastapi==0.115.0
+uvicorn==0.32.0
+python-multipart==0.0.12
+langchain-openai==0.2.10
+langchain-text-splitters==0.3.2
+
+# To install using uv, run:
+# uv pip install -r requirements.txt
