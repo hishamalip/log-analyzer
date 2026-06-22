@@ -70,8 +70,8 @@ def split_logs(log_file_content):
     """
     logger.info("Starting log splitting...")
     recursive_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=300,
-        chunk_overlap=100
+        chunk_size=2000,  # Adjust chunk size as needed based on typical log file sizes and LLM token limits
+        chunk_overlap=200
     )
 
     log_chunks = recursive_splitter.split_text(log_file_content)
